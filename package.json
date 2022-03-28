@@ -2,7 +2,7 @@
   "name": "first-site-bs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mark545154/first-site-bs.git",
+  "homepage": "https://mark545154.github.io/first-site-bs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
