@@ -6,8 +6,12 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   img {
+    min-width: 100%;
+    height: 600px;
     top: 0;
     right: 0;
+    left: 0;
+    bottom: 0;
   }
 `
 
@@ -18,10 +22,9 @@ export default function Slider() {
             <Carousel fade>
                 <Carousel.Item>
                     <img
-                        className={"d-block w-100"}
+                        className={"d-block w-100%"}
                         src={'https://source.unsplash.com/random'}
                         alt={"First slide"}
-                        style={{'height': '600px'}}
                     />
                     <Carousel.Caption>
                         <h3>Первый слайдер</h3>
@@ -33,7 +36,6 @@ export default function Slider() {
                         className={"d-block w-100"}
                         src={ocean2}
                         alt={"First slide"}
-                        style={{'height': '600px'}}
                     />
 
                     <Carousel.Caption>
@@ -46,7 +48,6 @@ export default function Slider() {
                         className={"d-block w-100"}
                         src={ocean3}
                         alt={"First slide"}
-                        style={{'height': '600px'}}
                     />
 
                     <Carousel.Caption>

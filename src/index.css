@@ -30,7 +30,6 @@ code {
     monospace;
 }
 
-CSS
 .section::-webkit-scrollbar-thumb {
   border: 5px solid transparent;
   border-radius: 100px;
